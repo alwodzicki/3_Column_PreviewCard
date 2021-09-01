@@ -1,0 +1,88 @@
+/*
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+*/
+*{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+  line-height: 2;
+}
+.vertical-margin{
+  margin: 5.5rem auto;
+}
+@media(min-width: 768px){
+  .vertical-margin{
+    margin: 10.75rem auto;
+  }
+}
+
+h2{
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+#brightOrangeBox{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+@media(min-width: 768px){
+  #brightOrangeBox{
+    border-radius: 10px 0 0 10px;
+  }
+}
+
+#darkCyanBox{
+  background-color: hsl(184, 100%, 22%);
+}
+
+#veryDarkCyanBox{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+@media(min-width: 768px){
+  #veryDarkCyanBox{
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.transparent-white{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.brightOrangeText{
+  color: hsl(31, 77%, 52%);
+}
+
+.darkCyanText{
+  color: hsl(184, 100%, 22%);
+}
+
+.veryDarkCyanText{
+  color: hsl(179, 100%, 13%);
+}
+button{
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 30px;
+  width: 146px;
+  height: 50px;
+}
+button:hover{
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border: solid 2px hsl(0, 0%, 95%);
+}
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
